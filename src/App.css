@@ -1,0 +1,23 @@
+@font-face {
+font-family: '[free version] Sketch Block Bold';
+font-style: normal;
+font-weight: normal;
+src: local('[free version] Sketch Block Bold'), url('Sketch_Block.woff') format('woff');
+}
+
+
+h1, body {
+  font-family: '[free version] Sketch Block Bold';
+}
+h1,h2 {
+  color: #0bff40;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
